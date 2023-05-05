@@ -17,10 +17,9 @@ function Update() {
 
     }
     useEffect(() => {
-        console.log(localStorage.getItem('firstName'))
+   
       setFirstname(localStorage.getItem('firstName'))
       setlastname(localStorage.getItem('lastName'))
-      console.log(localStorage.getItem('id'))
       setID(localStorage.getItem('id'))
     
      
